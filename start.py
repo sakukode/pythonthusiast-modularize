@@ -1,0 +1,3 @@
+from views import show_registration_students
+
+show_registration_students()
