@@ -1,3 +1,6 @@
-from views import show_registration_students
+from student.views import run_view as run_view_student
+from book.views import run_view as run_view_book
 
-show_registration_students()
+run_view_student()
+print('')
+run_view_book()

@@ -1,6 +1,6 @@
-from models import list_students;
+from .models import list_students
 
-def show_registration_students():
+def run_view():
     print("Registration Student")
     print("======================")
 
